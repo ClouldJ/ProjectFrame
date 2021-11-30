@@ -46,7 +46,7 @@ class PublicViewController : UIViewController, TabBarDelegate {
             let screenHeight: CGFloat = UIScreen.main.bounds.height
             let screenWidth: CGFloat = UIScreen.main.bounds.width
             
-            self.tabBarView = TabBarController.init(frame: CGRect.init(x: 0, y: screenHeight - self.safeArea.bottom - tabBarHeight, width: screenWidth, height: tabBarHeight))
+            self.tabBarView = TabBarController.init(frame: CGRect.init(x: 0, y: screenHeight - self.safeArea.bottom - tabBarHeight, width: screenWidth, height: tabBarHeight + self.safeArea.bottom))
             self.tabBarView?.tabs = self.controllerConfigs
             self.tabBarView?.delegate = self
             self.tabBarView?.backgroundColor = .white
@@ -56,15 +56,6 @@ class PublicViewController : UIViewController, TabBarDelegate {
         get{
             return _controllerConfigs
         }
-    }
-    
-    func allocObj(_ obj : String) -> AnyObject? {
-        ///获取名空间
-        let nameSpace = self.nameSpace
-        let cls: AnyClass? = NSClassFromString(nameSpace + "." + obj)
-        guard let objClass = cls as? UIViewController.Type else { return nil }
-        let controller = objClass.init()
-        return controller
     }
     
     func selectedIndex(_ idx: Int) {
@@ -137,6 +128,15 @@ extension NSObject {
                 return UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
             }
         }
+    }
+    
+    func allocObj(_ obj : String) -> AnyObject? {
+        ///获取名空间
+        let nameSpace = self.nameSpace
+        let cls: AnyClass? = NSClassFromString(nameSpace + "." + obj)
+        guard let objClass = cls as? UIViewController.Type else { return nil }
+        let controller = objClass.init()
+        return controller
     }
     
 }

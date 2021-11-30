@@ -10,6 +10,8 @@ import Foundation
 class ThirdViewController : ParentViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .blue
+        self.contentView.backgroundColor = .blue
+        
+        self.title = "首2"
     }
 }

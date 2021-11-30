@@ -40,7 +40,7 @@ class TabBarController : UIView {
                     let selectImage = param["selectImage"]
                     let tabName = param["MenuName"]
                     
-                    makeRect = CGRect.init(x: CGFloat(i) * width, y: 0, width: width, height: self.frame.height)
+                    makeRect = CGRect.init(x: CGFloat(i) * width, y: 0, width: width, height: self.frame.height - self.safeArea.bottom)
                     
                     let tabBarView = TabBarView.init(frame: makeRect)
                     tabBarView.tag = (tagID! as NSString).integerValue

@@ -10,6 +10,8 @@ import Foundation
 class SecondViewController : ParentViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .brown
+        self.contentView.backgroundColor = .brown
+        
+        self.title = "首页1"
     }
 }
