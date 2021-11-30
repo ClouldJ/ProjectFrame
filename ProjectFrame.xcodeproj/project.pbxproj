@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18030A0D2755B179007179D0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18030A0C2755B179007179D0 /* FirstViewController.swift */; };
+		18030A0F2755B185007179D0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18030A0E2755B185007179D0 /* SecondViewController.swift */; };
+		18030A112755B194007179D0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18030A102755B194007179D0 /* ThirdViewController.swift */; };
+		18030A132755B1A5007179D0 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18030A122755B1A5007179D0 /* ForthViewController.swift */; };
 		18EE79A72754B474000CDCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE79A62754B474000CDCDD /* AppDelegate.swift */; };
-		18EE79A92754B474000CDCDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE79A82754B474000CDCDD /* SceneDelegate.swift */; };
 		18EE79AB2754B474000CDCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE79AA2754B474000CDCDD /* ViewController.swift */; };
 		18EE79AE2754B474000CDCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE79AC2754B474000CDCDD /* Main.storyboard */; };
 		18EE79B02754B476000CDCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE79AF2754B476000CDCDD /* Assets.xcassets */; };
 		18EE79B32754B476000CDCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE79B12754B476000CDCDD /* LaunchScreen.storyboard */; };
+		18EE79BB2754B49D000CDCDD /* PublicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE79BA2754B49D000CDCDD /* PublicViewController.swift */; };
+		18EE79BD2754BC34000CDCDD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE79BC2754BC34000CDCDD /* TabBarController.swift */; };
+		18EE79BF2754D82E000CDCDD /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE79BE2754D82E000CDCDD /* ParentViewController.swift */; };
+		18EE79C12754DC44000CDCDD /* TabMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18EE79C02754DC44000CDCDD /* TabMenu.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18030A0C2755B179007179D0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		18030A0E2755B185007179D0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18030A102755B194007179D0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		18030A122755B1A5007179D0 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 		18EE79A32754B474000CDCDD /* ProjectFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EE79A62754B474000CDCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18EE79A82754B474000CDCDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18EE79AA2754B474000CDCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18EE79AD2754B474000CDCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18EE79AF2754B476000CDCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EE79B22754B476000CDCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EE79B42754B476000CDCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EE79BA2754B49D000CDCDD /* PublicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicViewController.swift; sourceTree = "<group>"; };
+		18EE79BC2754BC34000CDCDD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		18EE79BE2754D82E000CDCDD /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		18EE79C02754DC44000CDCDD /* TabMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TabMenu.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				18EE79A62754B474000CDCDD /* AppDelegate.swift */,
-				18EE79A82754B474000CDCDD /* SceneDelegate.swift */,
 				18EE79AA2754B474000CDCDD /* ViewController.swift */,
+				18EE79C02754DC44000CDCDD /* TabMenu.plist */,
+				18EE79BA2754B49D000CDCDD /* PublicViewController.swift */,
+				18EE79BC2754BC34000CDCDD /* TabBarController.swift */,
+				18EE79BE2754D82E000CDCDD /* ParentViewController.swift */,
+				18030A0C2755B179007179D0 /* FirstViewController.swift */,
+				18030A0E2755B185007179D0 /* SecondViewController.swift */,
+				18030A102755B194007179D0 /* ThirdViewController.swift */,
+				18030A122755B1A5007179D0 /* ForthViewController.swift */,
 				18EE79AC2754B474000CDCDD /* Main.storyboard */,
 				18EE79AF2754B476000CDCDD /* Assets.xcassets */,
 				18EE79B12754B476000CDCDD /* LaunchScreen.storyboard */,
@@ -128,6 +149,7 @@
 				18EE79B32754B476000CDCDD /* LaunchScreen.storyboard in Resources */,
 				18EE79B02754B476000CDCDD /* Assets.xcassets in Resources */,
 				18EE79AE2754B474000CDCDD /* Main.storyboard in Resources */,
+				18EE79C12754DC44000CDCDD /* TabMenu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18030A0F2755B185007179D0 /* SecondViewController.swift in Sources */,
+				18030A112755B194007179D0 /* ThirdViewController.swift in Sources */,
 				18EE79AB2754B474000CDCDD /* ViewController.swift in Sources */,
 				18EE79A72754B474000CDCDD /* AppDelegate.swift in Sources */,
-				18EE79A92754B474000CDCDD /* SceneDelegate.swift in Sources */,
+				18030A132755B1A5007179D0 /* ForthViewController.swift in Sources */,
+				18EE79BF2754D82E000CDCDD /* ParentViewController.swift in Sources */,
+				18EE79BD2754BC34000CDCDD /* TabBarController.swift in Sources */,
+				18EE79BB2754B49D000CDCDD /* PublicViewController.swift in Sources */,
+				18030A0D2755B179007179D0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

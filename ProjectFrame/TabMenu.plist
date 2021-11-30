@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>MenuID</key>
+		<string>99</string>
+		<key>MenuName</key>
+		<string>首页</string>
+		<key>viewController</key>
+		<string>FirstViewController</string>
+		<key>normalImage</key>
+		<string></string>
+		<key>selectImage</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>MenuID</key>
+		<string>100</string>
+		<key>MenuName</key>
+		<string>第二页</string>
+		<key>viewController</key>
+		<string>SecondViewController</string>
+		<key>normalImage</key>
+		<string></string>
+		<key>selectImage</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>MenuID</key>
+		<string>101</string>
+		<key>MenuName</key>
+		<string>第五页</string>
+		<key>viewController</key>
+		<string>ThirdViewController</string>
+		<key>normalImage</key>
+		<string></string>
+		<key>selectImage</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>MenuID</key>
+		<string>102</string>
+		<key>MenuName</key>
+		<string>第八页</string>
+		<key>viewController</key>
+		<string>ForthViewController</string>
+		<key>normalImage</key>
+		<string></string>
+		<key>selectImage</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
