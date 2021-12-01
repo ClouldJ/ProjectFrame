@@ -6,7 +6,7 @@
 		<key>MenuID</key>
 		<string>99</string>
 		<key>MenuName</key>
-		<string>首页</string>
+		<string>文件</string>
 		<key>viewController</key>
 		<string>FirstViewController</string>
 		<key>normalImage</key>
@@ -18,7 +18,7 @@
 		<key>MenuID</key>
 		<string>100</string>
 		<key>MenuName</key>
-		<string>第二页</string>
+		<string>相册备份</string>
 		<key>viewController</key>
 		<string>SecondViewController</string>
 		<key>normalImage</key>
@@ -30,7 +30,7 @@
 		<key>MenuID</key>
 		<string>101</string>
 		<key>MenuName</key>
-		<string>第五页</string>
+		<string>通讯录备份</string>
 		<key>viewController</key>
 		<string>ThirdViewController</string>
 		<key>normalImage</key>
@@ -42,7 +42,7 @@
 		<key>MenuID</key>
 		<string>102</string>
 		<key>MenuName</key>
-		<string>第八页</string>
+		<string>磁力链接</string>
 		<key>viewController</key>
 		<string>ForthViewController</string>
 		<key>normalImage</key>
