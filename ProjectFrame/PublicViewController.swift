@@ -49,7 +49,7 @@ class PublicViewController : UIViewController, TabBarDelegate {
             self.tabBarView = TabBarController.init(frame: CGRect.init(x: 0, y: screenHeight - self.safeArea.bottom - tabBarHeight, width: screenWidth, height: tabBarHeight + self.safeArea.bottom))
             self.tabBarView?.tabs = self.controllerConfigs
             self.tabBarView?.delegate = self
-            self.tabBarView?.backgroundColor = .white
+            self.tabBarView?.backgroundColor = .clear
             self.view.addSubview(self.tabBarView!)
         }
         
