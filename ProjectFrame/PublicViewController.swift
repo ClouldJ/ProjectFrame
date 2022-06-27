@@ -75,6 +75,10 @@ class PublicViewController : UIViewController, TabBarDelegate {
     }
     
     func replace(_ oldController: ParentViewController, _ newController: ParentViewController) {
+        guard newController != oldController else {
+            return
+        }
+        
         self.addChild(newController)
         self.transition(from: oldController, to: newController, duration: 0.3, options: .curveEaseInOut) {
             
@@ -92,7 +96,6 @@ class PublicViewController : UIViewController, TabBarDelegate {
                 self.currentVC = oldController
             }
         }
-
     }
     
     deinit {
